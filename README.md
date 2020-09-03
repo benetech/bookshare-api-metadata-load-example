@@ -12,11 +12,15 @@ This code example illustrates how to upload metadata to the Bookshare API, and t
 
 ## Set up the environment
 * Set up some environment variables to expose your login credentials to the scripts.
-| V2_API_KEY  | Your API key, usually a random 24-character string  |
+
+| Name             | Description |
+|------------------|---------|
+| V2_API_KEY       | Your API key, usually a random 24-character string  |
 | V2_API_USERNAME  | Username for the collection assistant, usually an email address  |
 | V2_API_PASSWORD  | Password for the collection assistant  |
 | BKS_API_BASE_URL | Base URL for the API, defaults to the QA environment  |
-| BKS_TOKEN_URL | URL for retrieving tokens for Bookshare API, defaults to the QA environment  |
+| BKS_TOKEN_URL    | URL for retrieving tokens for Bookshare API, defaults to the QA environment  |
+
 * Check out the project
 * Enter the project directory
 * Run `pipenv install`
