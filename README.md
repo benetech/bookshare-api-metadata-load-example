@@ -54,7 +54,7 @@ There are a number of ways you could update the script to accept multiple values
 
 ## Running the Scripts
 
-###`load_physical_item_metadata.py`
+### load_physical_item_metadata.py
 To run this script using pipenv, run the following from the root of the project directory:
 
 `pipenv run python load_physical_item_metadata.py`
@@ -63,7 +63,7 @@ The script will attempt to submit each line in the file input_data/in.csv to the
 
 Any rows that fail will get copied to the output file output_data/out_failed_submission.csv in the same format, so that they can be investigated and retried later.
 
-###`retrieve_bookshare_ids.py`
+### retrieve_bookshare_ids.py
 
 Metadata sent to the Bookshare API does not immediately show up in search results.  It is filtered through a number of processes before it can be found in Solr, the search engine used by Bookshare.  How long this can take depends on what else is going on in the Bookshare ecosystem: is it a quiet day, or are floods of new books being submitted?
 
